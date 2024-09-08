@@ -8,4 +8,8 @@ class Person:
     def greet(self):
         print(f"Hello, my name is {self.name} and I am {self.age} years old.")
 
-        
+p1 = Person("Kobe", 41)
+p1.greet()
+
+p2 = Person("Wayne", 48)
+p2.greet()
