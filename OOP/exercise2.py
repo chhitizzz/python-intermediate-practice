@@ -22,3 +22,7 @@ class BankAccount:
             self.balance -= amount
             print(f"Withdrawn: {amount}. New balance: {self.balance}")
 
+account = BankAccount(1000) # Initializing account with balance of 1000
+account.deposit(8000) # Deposit 8000
+account.withdraw(2000) # Withdraw 2000
+account.withdraw(8000) # Attempting to withdraw more than the balance i.e. 7000
