@@ -2,3 +2,4 @@
 
 1. Create a class Person with attributes name and age. Include a method greet() that prints "Hello, my name is name and I am age years old". Create an instance of Person and call the greet() method.
 2. Create a class BankAccount with attributes balance and methods deposit(amount) and withdraw(amount). Ensure withdraw() prevents the balance from going negative.
+3. Create a class Library that holds a list of books. Implement methods to add, remove, and search for books. Also, implement a method to display all books in the library.
