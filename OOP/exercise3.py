@@ -37,3 +37,12 @@ new_book.add_books("Can't Hurt Me")
 new_book.add_books("Becoming")
 
 new_book.display_books()
+
+new_book.search_books("The Alchemist")
+new_book.search_books("Psychology of Money")
+
+new_book.remove_books("1984")
+new_book.remove_books("Moby Dick")
+
+new_book.search_books("1984")
+new_book.search_books("War and Peace")
