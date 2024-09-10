@@ -44,5 +44,6 @@ new_book.search_books("Psychology of Money")
 new_book.remove_books("1984")
 new_book.remove_books("Moby Dick")
 
+new_book.search_books("Can't Hurt Me")
 new_book.search_books("1984")
 new_book.search_books("War and Peace")
