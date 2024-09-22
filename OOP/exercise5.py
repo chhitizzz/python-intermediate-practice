@@ -15,7 +15,7 @@ class Employee(Person):
         self.position = position
 
     def get_employee_details(self) -> None:
-        print(f"My name is {self.get_full_name()}. I am a {self.position} and my employee ID is {self.employee_id}.")
+        print(f"My name is {self.get_full_name()}. My position is {self.position} and my employee ID is {self.employee_id}.")
 
 Senna: Employee = Employee("Ayrton", "Senna", 1, "CEO")
 Senna.get_employee_details()
