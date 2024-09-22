@@ -4,3 +4,4 @@
 2. Create a class BankAccount with attributes balance and methods deposit(amount) and withdraw(amount). Ensure withdraw() prevents the balance from going negative.
 3. Create a class Library that holds a list of books. Implement methods to add, remove, and search for books. Also, implement a method to display all books in the library.
 4. Create a base class Animal with attributes name and species, and a method make_sound(). Then create a subclass Dog that inherits from Animal and adds a method fetch(). Instantiate a Dog object and call both methods.
+5. Create a class Person with attributes first_name and last_name, and a method get_full_name(). Create a subclass Employee that inherits from Person and adds attributes employee_id and position. Implement a method in Employee called get_employee_details() that returns the full name, employee ID, and position.
