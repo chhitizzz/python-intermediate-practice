@@ -1,1 +1,9 @@
 # Create a class Person with attributes first_name and last_name, and a method get_full_name(). Create a subclass Employee that inherits from Person and adds attributes employee_id and position. Implement a method in Employee called get_employee_details() that returns the full name, employee ID, and position.
+
+class Person: 
+    def __init__(self, first_name: str, last_name: str) -> None:
+        self.first_name = first_name
+        self.last_name = last_name
+    
+    def get_full_name(self) -> None:
+        print(f"My name is {self.first_name} {self.last_name}")
