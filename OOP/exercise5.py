@@ -1,0 +1,1 @@
+# Create a class Person with attributes first_name and last_name, and a method get_full_name(). Create a subclass Employee that inherits from Person and adds attributes employee_id and position. Implement a method in Employee called get_employee_details() that returns the full name, employee ID, and position.
